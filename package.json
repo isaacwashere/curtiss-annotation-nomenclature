@@ -1,0 +1,48 @@
+{
+  "name": "curtiss-annotation-nomenclature",
+  "version": "1.0.0",
+  "description": "Official NPM package for The Curtiss Annotation Nomenclature (CAN) system - TypeScript-first with 100 standardized CAN codes, full type safety, validation, and formatting utilities for systematic annotations",
+  "main": "dist/curtiss-annotation-nomenclature.js",
+  "types": "dist/curtiss-annotation-nomenclature.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/curtiss-annotation-nomenclature.d.ts",
+      "default": "./dist/curtiss-annotation-nomenclature.js"
+    }
+  },
+  "files": [
+    "dist/curtiss-annotation-nomenclature.js",
+    "dist/curtiss-annotation-nomenclature.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && uvu dist \\.test\\.js$",
+    "prepublishOnly": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacwashere/curtiss-annotation-nomenclature.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacwashere/curtiss-annotation-nomenclature/issues"
+  },
+  "homepage": "https://github.com/isaacwashere/curtiss-annotation-nomenclature#readme",
+  "keywords": [
+    "annotation",
+    "book",
+    "can",
+    "curtiss-annotation-nomenclature",
+    "curtiss",
+    "nomenclature",
+    "note-taking",
+    "reading",
+    "typescript"
+  ],
+  "author": "Isaac Curtiss",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "uvu": "^0.5.6"
+  }
+}
