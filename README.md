@@ -1264,7 +1264,11 @@ If there's any discrepancy or question about the meaning, usage, or official def
 
 Suggestions for improvements to this package are welcome! Please open an issue to discuss before submitting PRs.
 
-**Important Notes**:
+### Code of Conduct
+
+This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). Please read it, review, and abide by it. All contributors are expected to uphold this code.
+
+### Important Notes
 
 1. **Source of Truth**: [The Official CAN Guide](https://github.com/isaacwashere/curtiss-annotation-nomenclature-documentation/blob/main/CAN_Guide.pdf) is the authoritative specification for the CAN system. This package implements that specification.
 
