@@ -1,0 +1,65 @@
+name: Documentation Issue
+description: Report missing, unclear, or incorrect documentation
+title: '[DOCS] '
+labels: ['documentation']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help improve the documentation! If something is unclear or missing, please explain what you think should be added or changed.
+
+  - type: checkboxes
+    id: doc-type
+    attributes:
+      label: Type of Documentation Issue
+      description: What kind of documentation problem is this?
+      options:
+        - label: Missing documentation
+        - label: Unclear/confusing explanation
+        - label: Incorrect information
+        - label: Outdated content
+        - label: Type definitions need clarification
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Which section/function/type needs documentation help?
+      placeholder: e.g., formatCANAnnotation() function, or "Proper CAN Formatting" section
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's the Issue?
+      description: What's missing, unclear, or incorrect?
+      placeholder: Explain what needs to be improved
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested Improvement
+      description: (Optional) Suggest how this should be documented
+      placeholder: |
+        ```typescript
+        // Example code that should be documented
+        ```
+        
+        Here's how I think it should be explained...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before Submitting
+      options:
+        - label: I have read the current documentation
+          required: false
+        - label: I have searched for related documentation issues
+          required: false
