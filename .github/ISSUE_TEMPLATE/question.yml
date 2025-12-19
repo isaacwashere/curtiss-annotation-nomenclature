@@ -1,0 +1,86 @@
+name: Question
+description: Ask a question about how the CAN system or package works
+title: '[QUESTION] '
+labels: ['question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're happy to help! Please ask your question clearly.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Clear description of your question
+      placeholder: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to do? What's your use case?
+      placeholder: Help ensure your scenario is understood
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: research
+    attributes:
+      label: What Have You Tried?
+      description: Select what you've already looked at
+      options:
+        - label: Read the README and Quick Start
+        - label: Checked the Official CAN Guide
+        - label: Reviewed the API Reference
+        - label: Looked at the complete usage example
+        - label: Searched existing issues/discussions
+
+  - type: input
+    id: package-version
+    attributes:
+      label: curtiss-annotation-nomenclature Version
+      placeholder: e.g., 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: can-concepts
+    attributes:
+      label: CAN Concepts Involved
+      description: Which CAN codes, Emphasizers, or functions are involved?
+      placeholder: e.g., KC (KeyConcept), formatCANAnnotation()
+    validations:
+      required: false
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example Code
+      description: Relevant code snippet or pseudocode
+      placeholder: |
+        ```typescript
+        // Your code here
+        ```
+      render: typescript
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Helpful Resources
+        
+        - **README**: Comprehensive guide to using the package
+        - **Official CAN Guide**: https://github.com/isaacwashere/curtiss-annotation-nomenclature-documentation/blob/main/CAN_Guide.pdf
+        - **API Reference**: Complete list of all functions and types in the README
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other information that might help
+    validations:
+      required: false

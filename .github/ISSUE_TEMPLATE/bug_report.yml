@@ -1,0 +1,154 @@
+name: Bug Report
+description: Report a bug in the CAN package implementation
+title: '[BUG] '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please provide as much detail as possible to help fix it.
+
+  - type: dropdown
+    id: bug-category
+    attributes:
+      label: Bug Category
+      description: What type of bug are you reporting?
+      options:
+        - General Bug
+        - Rendering/Formatting Issue
+        - TypeScript/Type Safety Issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the bug
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue
+      placeholder: |
+        1. First step
+        2. Second step
+        3. Third step
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen
+      placeholder: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens
+      placeholder: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Code Example
+      description: Minimal reproducible code example
+      placeholder: |
+        ```typescript
+        // Your code here
+        ```
+      render: typescript
+    validations:
+      required: true
+
+  - type: input
+    id: package-version
+    attributes:
+      label: curtiss-annotation-nomenclature Version
+      placeholder: e.g., 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js Version
+      placeholder: e.g., 18.16.0
+    validations:
+      required: false
+
+  - type: input
+    id: ts-version
+    attributes:
+      label: TypeScript Version (if applicable)
+      placeholder: e.g., 5.0.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error Message / Stack Trace
+      description: If applicable, paste the complete error message
+      placeholder: |
+        ```
+        Error message here
+        ```
+      render: shell
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Additional Information for Specific Bug Types
+        
+        **For Rendering/Formatting Issues:**
+        - Specify CAN codes affected (e.g., KC, Q, E)
+        - Mention CAN Emphasizers involved (e.g., +, -, *)
+        - Note occurrence counter/numbering if relevant
+        - Indicate if it's ASCII or graphical formatting
+        - Include screenshots if possible
+        
+        **For TypeScript/Type Issues:**
+        - Include your TypeScript compiler options (strict mode, etc.)
+        - Show expected vs. actual type behavior
+        - Mention if type inference or generics are involved
+        
+        Use the "Additional Context" field below for these details.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other relevant information (screenshots, browser/platform, framework, tsconfig, etc.)
+      placeholder: |
+        For rendering issues: Browser, UI framework, screenshots
+        For TypeScript issues: Compiler options, IDE version
+        For general bugs: Any other relevant details
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before Submitting
+      options:
+        - label: I have read the README and API documentation
+          required: false
+        - label: I have searched for existing issues
+          required: false
+        - label: This is a bug in the package implementation, not a CAN system question
+          required: false
