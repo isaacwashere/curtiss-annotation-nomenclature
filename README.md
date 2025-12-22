@@ -1272,11 +1272,11 @@ This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). Please read i
 
 1. **Source of Truth**: [The Official CAN Guide PDF](https://curtiss-annotation-nomenclature.org/guide) is the authoritative specification for the CAN system. This package implements that specification.
 
-2. **Code Changes**: The 100 CAN codes, their names, and descriptions are defined by the official guide. Changes to the CAN Codes themselves should be proposed in [the Discussion Board found here](https://curtiss-annotation-nomenclature.org/community), or through [the Contact form located here](https://curtiss-annotation-nomenclature.org/contact). Proposals to create, remove, or modify CAN Codes should not be made through this repository.
+2. **Code Changes**: The 100 CAN codes, their names, and descriptions are defined by the official guide. Changes to the CAN Codes themselves can be proposed in any of the designated locations listed on [the Contact page](https://curtiss-annotation-nomenclature.org/contact). Proposals to create, remove, or modify CAN Codes should not be made through this repository.
 
 3. **Package Improvements**: Contributions related to TypeScript types, utilities, documentation, tests, and package functionality are welcome here.
 
-4. **New CAN Codes**: The system is designed to have exactly 100 CAN Codes. If you are interested in proposing new CAN Codes, this must be done through either the [Community Discussions board](https://curtiss-annotation-nomenclature.org/community) or via the [Contact page](https://curtiss-annotation-nomenclature.org/contact), and you should indicate which existing code(s) could be replaced/removed _(and why)_.
+4. **New CAN Codes**: The system is designed to have exactly 100 CAN Codes. If you are interested in proposing new CAN Codes, this must be done through the [Contact page](https://curtiss-annotation-nomenclature.org/contact), and you should indicate which existing code(s) could be replaced/removed _(and why)_.
 
 ---
 
