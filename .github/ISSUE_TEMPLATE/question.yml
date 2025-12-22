@@ -74,7 +74,7 @@ body:
         ## Helpful Resources
         
         - **README**: Comprehensive guide to using the package
-        - **Official CAN Guide**: https://github.com/isaacwashere/curtiss-annotation-nomenclature-documentation/blob/main/CAN_Guide.pdf
+        - **Official CAN Guide**: https://curtiss-annotation-nomenclature.org/guide
         - **API Reference**: Complete list of all functions and types in the README
 
   - type: textarea

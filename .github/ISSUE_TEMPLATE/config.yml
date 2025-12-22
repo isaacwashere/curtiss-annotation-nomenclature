@@ -1,10 +1,10 @@
 blank_issues_enabled: true
 contact_links:
   - name: 📖 Official CAN Guide (Documentation)
-    url: https://github.com/isaacwashere/curtiss-annotation-nomenclature-documentation/blob/main/CAN_Guide.pdf
+    url: https://curtiss-annotation-nomenclature.org/guide
     about: Read the authoritative specification for the Curtiss Annotation Nomenclature system
   - name: 💡 Propose Changes to CAN Specification
-    url: https://github.com/isaacwashere/curtiss-annotation-nomenclature-documentation/issues/new
+    url: https://curtiss-annotation-nomenclature.org/community
     about: Suggest changes to the CAN system itself (not this package) - use Official CAN Guide repository
   - name: ❓ Not Sure Which Template to Use?
     url: https://github.com/isaacwashere/curtiss-annotation-nomenclature#readme
