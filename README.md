@@ -1250,7 +1250,7 @@ The official CAN Guide is the definitive reference for:
 ### Version Alignment
 
 - **This package version**: `1.0.0` _(NPM package version)_
-- **Official CAN Guide version**: `1.0.0` _(via `CURTISS_ANNOTATION_NOMENCLATURE_VERSION` constant)_
+- **Official CAN Guide version**: `1.0.0` _(via `CURTISS_ANNOTATION_NOMENCLATURE_VERSION` constant)_ supported in this package
 
 The `CURTISS_ANNOTATION_NOMENCLATURE_VERSION` constant in this package indicates which version of the official CAN Guide is implemented.
 
