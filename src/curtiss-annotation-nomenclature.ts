@@ -1,5 +1,9 @@
 /**
- * Version
+ * Version of the Curtiss Annotation Nomenclature Specification
+ * @description This is the version of the Curtiss Annotation Nomenclature 
+ * Specification that this package implements. Review the changelog for more information
+ * on what has changed since the last version.
+ * @url https://curtiss-annotation-nomenclature.org/changelog
  */
 export const CURTISS_ANNOTATION_NOMENCLATURE_VERSION = "1.0.0";
 
