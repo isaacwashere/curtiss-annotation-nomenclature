@@ -198,7 +198,7 @@ const formatted = formatCANAnnotation({
   numOccurrences: annotation.numOccurrences
 });
 
-// Display in UI: "[1] (KC)* — This is the central thesis..."
+// Display in UI: "[1] (KC)* This is the central thesis..."
 ```
 
 ### 2. Research Paper Analysis & Systematic Review
