@@ -1,6 +1,6 @@
 {
   "name": "curtiss-annotation-nomenclature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official NPM package for The Curtiss Annotation Nomenclature (CAN) system - TypeScript-first with 100 standardized CAN codes, full type safety, validation, and formatting utilities for systematic annotations",
   "main": "dist/curtiss-annotation-nomenclature.js",
   "types": "dist/curtiss-annotation-nomenclature.d.ts",

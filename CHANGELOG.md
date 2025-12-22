@@ -9,8 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Links in the README.md, Issue templates, and package.json were updated to point to the correct
-location
+- Links in the README.md, Issue templates, and package.json were updated to point to the correct location
 
 ## [1.0.0] - 2025-12-18
 
@@ -79,4 +78,5 @@ location
 - **ES2020 Target** - Modern JavaScript with CommonJS module format
 - **Proper NPM Exports** - Configured for optimal tree-shaking and module resolution
 
+[1.0.1]: https://github.com/isaacwashere/curtiss-annotation-nomenclature/releases/tag/v1.0.1
 [1.0.0]: https://github.com/isaacwashere/curtiss-annotation-nomenclature/releases/tag/v1.0.0

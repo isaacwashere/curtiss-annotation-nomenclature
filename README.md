@@ -1,6 +1,6 @@
 # Curtiss Annotation Nomenclature (C.A.N.)
 
-[![NPM Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://www.npmjs.com/package/curtiss-annotation-nomenclature)
+[![NPM Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://www.npmjs.com/package/curtiss-annotation-nomenclature)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Official NPM package for The Curtiss Annotation Nomenclature _(C.A.N.)_ System.** A TypeScript-first package providing 100 standardized CAN codes with full type safety for systematic annotating.
@@ -1250,7 +1250,7 @@ The official CAN Guide is the definitive reference for:
 ### Version Alignment
 
 - **This package version**: `1.0.0` _(NPM package version)_
-- **Official CAN Guide version**: `1.0.0` _(via `CURTISS_ANNOTATION_NOMENCLATURE_VERSION` constant)_
+- **Official CAN Guide version**: `1.0.0` _(via `CURTISS_ANNOTATION_NOMENCLATURE_VERSION` constant)_ supported in this package
 
 The `CURTISS_ANNOTATION_NOMENCLATURE_VERSION` constant in this package indicates which version of the official CAN Guide is implemented.
 
